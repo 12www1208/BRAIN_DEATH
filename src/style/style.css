@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menu-item {
+    @apply inline-block text-xl md:text-2xl text-white hover:text-hE duration-200 ml-4 md:ml-20;
+  }
+}
